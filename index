@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>my workbook</title>
+<style type="css">
+    html{width:100%;
+        height:100%;}
+    body {
+        width:100%;
+        height:100%;
+        background-image: url(./image/background.jpg);
+        }
+    h2{
+        text-align:center;
+        position:absolute;
+    width:100%;
+    margin:auto;}
+
+</style>
+</head>
+<body>
+
+<h2>Interactive Media Workbook 1 A</h2>
+
+
+
+<a href="Workbook1.html">
+<button>Week 1</button></a>
+<button>Week 2</button>
+<button>Week 3</button>
+</body>
+</html>
