@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my workbook</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      text-decoration: underline;
+      color: #000;
+    }
+
+    body {
+      height: 1000px;
+      width: 100vw;
+      background-image: url(./images/bac.jpg);
+      background-size: 100% 2700px;
+      overflow-x: hidden;
+
+    }
+
+    h2 {
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      margin: auto;
+    }
+
+    .href {
+      width: 10vw;
+      height: 100vh;
+      background-color: rgba(255, 228, 196, 0.625);
+      position: fixed;
+      top: 0px;
+      left: 0px;
+
+    }
+
+    .href button {
+      display: block;
+      width: 100%;
+      height: 40px;
+      border: unset;
+      border-bottom: 2px solid #000;
+      background-color: rgba(255, 228, 196, 0.625);
+      color: black;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .ri {
+      width: 90%;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: absolute;
+      right: 0px;
+      padding-top: 50px;
+    }
+
+    .ri1,
+    .ri2,
+    .ri4,
+    .ri5 {
+      width: 50%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .ri3 {
+      width: 100%;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      margin-top: 32px;
+    }
+
+    .ty {
+      width: 80%;
+      height: 100px;
+      border-radius: 600px;
+      border: 2px solid #000;
+      margin: 0px auto;
+      align-self: center;
+      position: relative;
+      padding: 60px;
+
+    }
+
+    .fangk {
+      margin: 0px auto;
+      height: 100%;
+      
+      width: 40%;
+      align-self: center;
+      overflow: hidden;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .ty img {
+      width: 100%;
+      height: 80%;
+      margin-left: 30px;
+      align-self: center;
+
+    }
+
+    .ty div {
+      align-self: center;
+      margin-left: 20px;
+      margin-right: 10px;
+    }
+
+    .fangk button {
+      width: 200px;
+      height: 50px;
+      background-color: unset;
+      border: unset;
+      background-color: unset;
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="flex">
+    <div class="href">
+      <a href="./1.html"><button>Week 1</button></a>
+      <a href="./2.html"><button>Week 2</button></a>
+      <a href="./3.html"> <button>Week 3</button></a>
+      <a href="./4.html"> <button>Week 4</button></a>
+      <a href="./5.html"> <button>Week 5</button></a>
+      <a href="./6.html"> <button>Week 6</button></a>
+      <a href="./7.html"> <button>Week 7</button></a>
+      <a href="./8.html"> <button>Week 8</button></a>
+      <a href="./9.html"> <button>Week 9</button></a>
+    </div>
+    <div class="flex ri">
+
+      <div class="ri5" style="width: 100%;">
+        <div class="ty flex">
+          Week7 
+        </div>
+        <div class="ty flex">
+           self coding
+        </div>
+      </div>
+      <div class="ri4">
+      </div>
+      <div class="ri3">
+        <div class="fangk">
+          <video src="./video/7_1.mp4" width="100%" height="100%" muted loop autoplay></video>
+        </div>
+        <div class="fangk">
+          <video src="./video/7_2.mp4" width="100%" height="100%" muted loop autoplay></video>
+        </div>
+        <div class="fangk">
+          <video src="./video/1.mp4" width="100%" height="100%" muted loop autoplay></video>
+        </div>
+        
+      </div>
+      <img src="./images/1.png" width="90%" style="border-radius: 30px;margin-top: 30px;" alt="">
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
